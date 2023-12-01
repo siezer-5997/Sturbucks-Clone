@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Header from './Header'
+import Body from './Body'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     <Header/>
-      <h1>Hello World</h1>
+    <Body />
     </>
   )
 }

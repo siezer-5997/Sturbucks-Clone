@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	/* background-color: rgba(113, 135, 121, 0.929); */
+	font-size: 18px;
+	font-family:sans-serif;
+}
+
+.tabs {
+	display: flex;
+	flex-flow: row wrap;
+	color: rgb(9, 103, 69);
+	padding: 15px 35px;
+	background-color: rgb(148, 181, 168);
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav-items {
+	display: flex;
+	list-style: none;
+}
+
+.nav-items > li {
+	padding: 10px;
+}
+
+.main {
+	margin: 10px 10px;
+	padding: 5px 10px;
+}
+.footer {
+	padding: 2rem;
+	background-color: gray;
+	align-content: center;
+}
